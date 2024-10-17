@@ -1,0 +1,173 @@
+/* App.css */
+body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.app-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.side-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #00ffff;
+  padding: 20px;
+  width: 300px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.side-menu h2 {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.planet-dropdown {
+  margin-bottom: 10px;
+}
+
+.futuristic-button {
+  background-color: transparent;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  padding: 10px 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: left;
+}
+
+.futuristic-button:hover {
+  background-color: rgba(0, 255, 255, 0.2);
+}
+
+.dropdown-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.planet-model {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.planet-info {
+  font-family: 'Roboto', sans-serif;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.speed-control {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.speed-control input[type="range"] {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.object-view {
+  width: 100%;
+  height: 200px;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.controls button,
+.controls input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.controls input[type="range"] {
+  cursor: pointer;
+}
+
+.controls input[type="number"] {
+  background-color: #444;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.orbit-toggle {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.orbit-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* ... (keep existing styles) */
+
+.control-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.control-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.speed-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+#speed-slider {
+  width: 150px;
+}
+
+/* Add this to your existing styles */
+.selected-planet {
+  outline: 2px solid white;
+}

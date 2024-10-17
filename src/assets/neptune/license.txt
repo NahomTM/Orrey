@@ -1,0 +1,11 @@
+Model Information:
+* title:	Neptune
+* source:	https://sketchfab.com/3d-models/neptune-9263a7336bb245e893fef236e4f3874e
+* author:	Recourse Design ltd. (https://sketchfab.com/RecourseDesign)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Neptune" (https://sketchfab.com/3d-models/neptune-9263a7336bb245e893fef236e4f3874e) by Recourse Design ltd. (https://sketchfab.com/RecourseDesign) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

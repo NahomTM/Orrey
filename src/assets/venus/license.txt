@@ -1,0 +1,11 @@
+Model Information:
+* title:	Venus
+* source:	https://sketchfab.com/3d-models/venus-e8dc5d996178422fa55d7fe0174c4568
+* author:	Recourse Design ltd. (https://sketchfab.com/RecourseDesign)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Venus" (https://sketchfab.com/3d-models/venus-e8dc5d996178422fa55d7fe0174c4568) by Recourse Design ltd. (https://sketchfab.com/RecourseDesign) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
